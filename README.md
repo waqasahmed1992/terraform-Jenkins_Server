@@ -29,5 +29,5 @@ Jenkins_IP_Address = <<EOT   <br/>
     backend = <public_ip_address>:80_          (To retrieve the initialAdminPassword)
 
 
-    <img src="/images/jenkins-page.png" alt="Jenkins Server Initial Screen"/>
-    <img src="/docs/initialAdminPassword.png" alt="Initial Password to Configure Jenkins"/>
+    <img src="images/jenkins-page.png" alt="Jenkins Server Initial Screen"/>
+    <img src="images/initialAdminPassword.png" alt="Initial Password to Configure Jenkins"/>
