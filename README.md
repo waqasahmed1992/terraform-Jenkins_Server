@@ -22,7 +22,7 @@ You can pass other varialbes too to customize the template
 
 The Configuration will generate the output 
 
-Outputs:
+## Output
 
 Jenkins_IP_Address = <<EOT
     backend = 3.91.195.135:8080          (To access Jenkins Server)
