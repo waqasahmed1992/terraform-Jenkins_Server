@@ -24,6 +24,6 @@ The Configuration will generate the output
 
 ## Output
 
-Jenkins_IP_Address = <<EOT
-    backend = 3.91.195.135:8080          (To access Jenkins Server)    <br />
-    backend = 3.91.195.135:80            (To retrieve the initialAdminPassword)
+Jenkins_IP_Address = <<EOT   <br/>
+    backend = 3.91.195.135:8080_______          (To access Jenkins Server)    <br />
+    backend = 3.91.195.135:80_________          (To retrieve the initialAdminPassword)
