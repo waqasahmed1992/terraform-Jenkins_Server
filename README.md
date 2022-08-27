@@ -25,17 +25,5 @@ The Configuration will generate the output
 ## Output
 
 Jenkins_IP_Address = <<EOT
-    backend = 3.91.195.135:8080          (To access Jenkins Server)
+    backend = 3.91.195.135:8080          (To access Jenkins Server)    <br />
     backend = 3.91.195.135:80            (To retrieve the initialAdminPassword)
-
-
-```To Use Module
-module "Jenkins_Server" {
-  source = "./modules/terraform-Jenkins_Server"
-  #   az = "us-east-1d"
-}
-
-output "Jenkins_IP_Address" {
-  value = module.Jenkins_Server.IPAddress
-}
-```
